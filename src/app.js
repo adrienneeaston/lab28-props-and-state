@@ -19,7 +19,7 @@ class App extends React.Component {
   render() {
     return (
       <Message
-        text="this is our awesome text (from app.js)"
+        text="To Do App"
         title="this is my title in app.js"
         action={this.sayIt}
         input={this.state.input}
